@@ -13,7 +13,7 @@ The VQVG Emulator was running with 512 RAM and the Nexus Emulator was running wi
 
   Problems:
 
-Requirement 6) 
+Requirement 6) <br>
 By creating my contract and handler class outside of the application context, I was unable to avoid having hardcoded values.
 This is due to the fact, that they can't refer to the ApplicationContext and thus can't reach the String.XML system resource.
 Furthermore my contract class i a static class, which means it is instantiated before any context is created.
