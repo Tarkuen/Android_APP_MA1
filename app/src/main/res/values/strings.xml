@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Android_MA1</string>
+    <string name="courses">Courses</string>
+    <string name="course_parcel">course</string>
+    <string name="course_list_parcel">courses</string>
+    <string name="delete_rating">Delete Your Rating</string>
+
+    <string name="teachers">Teachers</string>
+    <string name="teachers_list_parcel">teachers</string>
+    <string name="teachers_parcel">teacher</string>
+    <string name="sendMail">Send mail</string>
+    <string name="rateCourse">Rate course</string>
+    <string name="rated">Already Rated</string>
+    <string name="student_id">1</string>
+    <string name="empty_select">Nothing Selected</string>
+
+    <!--Rating Strings-->
+    <string name="rat1">Subject Relevance</string>
+    <string name="rat2">Teacher Overall Performance</string>
+    <string name="rat3">Teacher Preparation</string>
+    <string name="rat4">Feedback Quality</string>
+    <string name="rat5">Examples Quality</string>
+    <string name="rat6">Job Oppertunities</string>
+
+    <!--Database Ratings-->
+    <string name="trat1">rat1</string>
+    <string name="trat2">rat2</string>
+    <string name="trat3">rat3</string>
+    <string name="trat4">rat4</string>
+    <string name="trat5">rat5</string>
+    <string name="trat6">rat6</string>
+
+    <!--Email related-->
+    <string name="mail_type">message/rfc822</string>
+    <string name="mail_greeting">You have received a new rating, by: </string>
+    <string name="mail_course">On course: </string>
+    <string name="mail_student">By Student: </string>
+
+    <!--System-->
+    <string name="mail_exception">Mail Exception: </string>
+    <string name="table_exception">Creation Exception</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="rating_deleted">Deleted Rating</string>
+    <string name="rating_warning">You are about to delete your rating</string>
+
+    <!--Database Related -->
+    <string name="DB_NAME">Courses.db</string>
+    <string name="ID">ID </string>
+    <string name="name">name</string>
+
+
+    <!--Courses-->
+    <string name="COURSES">courses_table</string>
+    <string name="course_TEACHER">teacher_FK</string>
+
+    <!--Students-->
+    <string name="STUDENTS">students_table</string>
+
+    <!--Teachers-->
+    <string name="TEACHERS">teachers_table</string>
+    <string name="teachers_mail">mail</string>
+
+    <!--Ratings-->
+    <string name="RATINGS">ratings_table</string>
+    <string name="ratings_from">from_student_FK</string>
+    <string name="ratings_to">to_student_FK</string>
+
+    <!--SQLITE KEYWORDS-->
+    <string name="create_table">CREATE TABLE </string>
+    <string name="open_table"> ( </string>
+    <string name="close_table"> ); </string>
+    <string name="int_pk">INTEGER PRIMARY KEY</string>
+    <string name="integer">INTEGER </string>
+    <string name="text">TEXT</string>
+    <string name="fk_o">FOREIGN KEY ( </string>
+    <string name="fk_c">) REFERENCES </string>
+    <string name="ref_o">(</string>
+    <string name="ref_c">)</string>
+
+    <!--STATEMENT / CLAUSES-->
+    <string name="and"> AND </string>
+    <string name="where"> = ?</string>
+    <string name="drop">DROP TABLE IF EXISTS </string>
+    <string name="statement_end">; </string>
+    <string name="select_all">SELECT * FROM </string>
+
+</resources>
