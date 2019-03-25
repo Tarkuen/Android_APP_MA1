@@ -26,9 +26,15 @@ public class DatabaseHandler extends SQLiteOpenHelper {
             String[] columns = {"name"};
             String where_clause = "type = ? AND name = ?";
             Cursor result = db.query("sqlite_master",columns,where_clause, values,null,null,null);
-            result.close();
+            if(result.getCount()==1){
+                result.close();
+                return false;
+            }
+            else{
+                result.close();
+                return true;
+            }
 
-            return false;
         }catch (RuntimeException e){
             System.out.println(e.getMessage());
             return true;

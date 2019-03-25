@@ -48,9 +48,9 @@ public class MainActivity extends AppCompatActivity {
 
         start = db.check_table(database);
         System.out.println(start);
+
         if(start){
 
-        drop_all_tables(db, database);
         db.onCreate(database);
 
         String[] teacher_v ={"John Nielsen","JN@kea.dk", "0"};
